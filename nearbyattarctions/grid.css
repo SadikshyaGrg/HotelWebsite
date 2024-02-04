@@ -1,0 +1,15 @@
+.attractions-contents{
+	width: 1200px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col{
+	padding: 5px;
+	flex: 0 0 33.33%;
+	max-width: 32%;
+}

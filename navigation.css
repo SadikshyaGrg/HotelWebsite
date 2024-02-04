@@ -1,0 +1,46 @@
+.name{
+	font-size:30px;
+	color: ghostwhite;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 6%;
+
+}
+.nav-bar{
+	align-content: center;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+}
+.navlinks ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	margin: 0px 20px;
+	text-align: right;
+}
+.navlinks ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	align-items: right;
+}
+.navlinks ul li::after{
+	content: "";
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.4s;
+}
+.navlinks ul li:hover::after{
+	width: 100%;
+}
